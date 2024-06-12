@@ -1,0 +1,177 @@
+body {
+    background-image: url('../bgImg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+
+}
+
+.logo {
+    color: white;
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bar ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin-right: 25px;
+}
+
+.bar ul>li>a {
+
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.bar ul>li>a:hover{
+    color: aqua;
+}
+
+/* Main Part */
+
+.form1 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.form2 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.welcome {
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    color: azure;
+    /* background-image: url('img1.jpeg');    
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+
+.welcome p {
+    padding: 10px;
+}
+
+.btn_login1 {
+    padding: 8px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.btn_login1:hover {
+    background-color: rgb(19, 83, 179);
+}
+
+.btn_login2 {
+    padding: 8px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.btn_login2:hover {
+    background-color: rgb(19, 83, 179);
+}
+
+.login {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Chivo Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    color: azure;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.register input{
+    background-color: gainsboro;
+    border: none;
+    padding: 10px;
+}
+
+#submit{
+    background-color: rgb(48, 87, 133);
+    width: 182px;
+    color:aliceblue;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(216, 21, 21);
+}
+
+#submit1{
+    background-color: rgb(48, 87, 133);
+    width: 182px;
+    color:aliceblue;
+    cursor: pointer;
+}
+
+#submit1:hover{
+    background-color: rgb(216, 21, 21);
+}
+
+.hide{
+    display: none;
+}

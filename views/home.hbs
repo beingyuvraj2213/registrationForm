@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/home.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <p>Yuvraj</p>
+            </div>
+
+            <div class="bar">
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/secret">Secret</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/home">Registration</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Registration Part -->
+
+        <div class="form1 hide">
+            <div class="welcome">
+                <h2>Welcome Back!</h2>
+                <p style="text-align: center;">To keep connected with us, please login with your personal email</p>
+                <button class="btn_login1">Login Here</button>
+            </div>
+
+            <div class="login">
+                <h2>Create Account</h2>
+                <div class="icons">
+                    <a href="_blank">
+                        <i class="fa-brands fa-instagram" style="color: #d02216;"></i>
+                    </a>
+
+                    <a href="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: #d02216"></i>
+                    </a>
+
+                    <a href="_blank">
+                        <i class="fa-brands fa-x-twitter" style="color: #d02216"></i>
+                    </a>
+
+
+                </div>
+
+                <p style="text-align: center;">Or use your email for registration</p>
+
+                <form class="register" action="/" method="post">
+
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <input type="password" name="pwd" id="password" placeholder="Password">
+                    <input type="hidden" name="formType" value="register">
+                    <input type="submit" name='submit' id="submit" placeholder="Register">
+
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Login Part -->
+        <div class="form2">
+            <div class="welcome">
+                <h2>Hello Friend</h2>
+                <p style="text-align: center;">Hope you are doing good</p>
+                <button class="btn_login2">Register Here</button>
+            </div>
+
+            <div class="login">
+                <h2>Login</h2>
+                <div class="icons">
+                    <a href="_blank">
+                        <i class="fa-brands fa-instagram" style="color: #d02216;"></i>
+                    </a>
+
+                    <a href="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: #d02216"></i>
+                    </a>
+
+                    <a href="_blank">
+                        <i class="fa-brands fa-x-twitter" style="color: #d02216"></i>
+                    </a>
+
+
+                </div>
+
+                <p style="text-align: center;">Or use your email to login</p>
+
+                <form class="register" action="/" method="post">
+
+                    <input type="text" name="email1" id="email1" placeholder="Email">
+                    <input type="password" name="pwd1" id="password1" placeholder="Password">
+                    <input type="hidden" name="formType" value="signin">
+
+                    <input type="submit" name="submit1" id="submit1" >
+
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
